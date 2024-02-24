@@ -1,0 +1,349 @@
+<mjml>
+	<mj-head>
+		<mj-style>
+        body
+        {
+            background: white;
+            color: black;
+        }
+        .hero
+        {
+            background-image: url('./images/header.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .hero-text h1{
+            font-size: 2rem !important;
+            font-weight: 900;
+            line-height: 34px;
+            text-align: left;
+            color: white !important;
+        }
+        .hero-btn{
+            float: right;
+            position: relative;
+            right: 0;
+        }
+
+        .header p{
+            font-size: 1.5rem !important;
+            font-weight: 300;
+            padding: 0 0.5rem;
+        }
+
+        .footer
+        {
+            padding: 50px 0;
+        }
+
+        .footer p
+        {
+            background: black;
+            color: white;
+            font-size: .7rem !important;
+            padding: 1.5rem 1rem;
+        }
+
+        h2{
+            font-size: 2rem !important;
+            margin: 0px;
+        }
+
+        p{
+            font-size: 1rem !important;
+            margin: 5px 0px;
+        }
+
+        h3
+        {
+            font-size: 1rem;
+            margin: 2rem 0;
+        }
+
+        h4
+        {
+            font-size: 0.8rem;
+            text-align: left;
+            font-weight: bold;
+            margin: 0;
+            padding: 0 5px;
+        }
+
+		.right
+		{
+			float: right;
+		}
+		</mj-style>
+	</mj-head>
+
+	<mj-body>
+		<mj-section css-class='header'>
+			<mj-column width='100%'>				
+				<mj-table>
+					<tr>
+						<td width='48px'>
+							<image src='./images/logo.png' alt='Trustauthx Logo' 
+								width='48px' height='48px' align='left'/>
+						</td>
+						<td>
+							<p>Trustauthx For Startups</p>
+						</td>
+					</tr>
+				</mj-table>
+			</mj-column>
+		</mj-section>
+
+		<mj-section css-class='hero'>
+			<mj-column width='100%'>
+				<mj-spacer height='50px'/>
+				<mj-text css-class='hero-text'>
+					<h1>Congratulations &amp; Welcome to Trustauthx 
+					</h1>
+				</mj-text>
+				<mj-spacer height='25px'/>
+				<mj-button css-class='hero-btn' background-color='black' href='#'>
+					Get Started Now
+				</mj-button>
+			</mj-column>
+		</mj-section>
+
+		<mj-section>
+			<mj-column width='85%'>
+				<mj-text>
+					<h2>Hi {{ name }},</h2>
+				</mj-text>
+				<mj-text>
+					<p>
+						We're thrilled to welcome you to Trustauthx, the one-stop platform for secure and 
+						effortless authentication and authorization solutions for startups!
+					</p>
+				</mj-text>
+				<mj-text>
+					<p>
+						We know getting a venture started can be tough, so we're here to make things easy 
+						for you, we're offering you <strong>{{ number of months }} months of FREE access 
+						to our entire suite of features.</strong> That's right, you can experience the 
+						power of Trustauthx without spending a dime!
+					</p>
+				</mj-text>
+				<mj-text css-class='heading'>
+					<h2>{{ PromoCode }},</h2>
+				</mj-text>
+				<mj-text>
+					<p>
+                		But wait, there's more! <br />
+                		This exclusive offer expires in 5 days, so don't miss out! ⏳
+					</p>
+				</mj-text>
+			</mj-column>
+
+			<mj-column width='40%'>
+				<mj-button width='100%' background-color='black' padding='5px'>
+					Join our discord server
+				</mj-button>
+			</mj-column>
+			<mj-column width='40%'>
+				<mj-button width='100%' background-color='black' padding='5px'>
+					Follow us on Linkedin
+				</mj-button>
+			</mj-column>
+		</mj-section>
+
+		<mj-section>
+			<mj-column width='85%'>
+				<mj-text>
+					<h3>Trustauthx for startups Exclusive benefits:</h3>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+		
+		<mj-section>
+			<mj-column width='85%'>
+			<mj-table>
+				<tr>
+					<td width='48px'>
+						<img src='./images/truck.svg' alt='Streamline user authentication'
+							width='48px' height='48px' align='left'/>
+					</td>
+					<td>
+						<h4>Streamline user authentication</h4>
+					</td>
+				</tr>
+			</mj-table>
+			<mj-text>
+				<p>
+					Simplify logins and signups with our user-friendly interface and customizable 
+					workflows.
+				</p>
+			</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section>
+		<mj-column width='85%'>
+			<mj-table>
+				<tr>
+					<td width='48px'>
+						<img src='./images/truck.svg' alt='Streamline user authentication'
+							width='48px' height='48px' align='left'/>
+					</td>
+					<td>
+						<h4>Streamline user authentication</h4>
+					</td>
+				</tr>
+				<tr>
+					<td colspan='2'>
+						<mj-text>
+							<p>
+								Simplify logins and signups with our user-friendly interface and customizable 
+								workflows.
+							</p>
+						</mj-text>
+					</td>
+				</tr>
+			</mj-table>
+		</mj-column>
+	</mj-section>
+
+	<mj-section>
+		<mj-column width='85%'>
+			<mj-table>
+				<tr>
+					<td width='48px'>
+						<img src='./images/Megaphone.svg' alt='Reduce development time and costs' 
+							width='48px' height='48px' align='left'/>
+					</td>
+					<td>
+						<h4>Reduce development time and costs</h4>
+					</td>
+				</tr>
+				<tr>
+					<td colspan='2'>
+						<mj-text>
+							<p>
+								Focus on building your amazing product instead of worrying about authentication
+								infrastructure.
+							</p>
+						</mj-text>
+					</td>
+				</tr>
+			</mj-table>
+		</mj-column>
+	</mj-section>
+
+	<mj-section>
+		<mj-column width='85%'>
+			<mj-table>
+				<tr>
+					<td width='48px'>
+						<img src='./images/Phone.svg' alt='Tailored Solutions' 
+							width='48px' height='48px' align='left'/>
+					</td>
+					<td>
+						<h4>Tailored Solutions</h4>
+					</td>
+				</tr>
+				<tr>
+					<td colspan='2'>
+						<mj-text>
+							<p>
+								Get expert guidance and solutions designed to meet the unique needs of your
+								startup.
+							</p>
+						</mj-text>
+					</td>
+				</tr>
+			</mj-table>
+		</mj-column>
+	</mj-section>
+
+	<mj-section>
+		<mj-column width='85%'>
+			<mj-table>
+				<tr>
+					<td width='48px'>
+						<img src='./images/Undo - 2.svg' alt='Scalable Infrastructure' 
+							width='48px' height='48px' align='left'/>
+					</td>
+					<td>
+						<h4>Scalable Infrastructure</h4>
+					</td>
+				</tr>
+				<tr>
+					<td colspan='2'>
+						<mj-text>
+							<p>
+								Grow confidently knowing that our infrastructure can adapt to your ever-expanding 
+								user base.
+							</p>
+						</mj-text>
+					</td>
+				</tr>
+			</mj-table>
+		</mj-column>
+	</mj-section>
+
+	<mj-section>
+		<mj-column width='85%'>
+			<mj-table>
+				<tr>
+					<td width='48px'>
+						<img src='./images/Gift.svg' alt='Exclusive Community' 
+							width='48px' height='48px' align='left'/>
+					</td>
+					<td>
+						<h4>Exclusive Community</h4>
+					</td>
+				</tr>
+				<tr>
+					<td colspan='2'>
+						<mj-text>
+							<p>
+								Join a vibrant community of fellow startups where you can share knowledge, 
+								collaborate, and learn from each other.
+							</p>
+						</mj-text>
+					</td>
+				</tr>
+			</mj-table>
+		</mj-column>
+	</mj-section>
+
+
+		<mj-section>
+			<mj-column width='85%'>
+				<mj-text>
+					<p>
+						You can manage your subscription and see how much you have saved on this 
+						subscription and fees from your account page.
+					</p>
+				</mj-text>
+			</mj-column>
+			<mj-column width='50%'>
+				<mj-button width='100%' background-color='black' padding='5px' href='#'>
+            		Learn More
+				</mj-button>
+			</mj-column>
+		</mj-section>
+
+		<mj-section css-class='footer'>
+			<mj-column width='20%'>
+				<mj-image src='./images/linkedin.png' alt='Linkedin' 
+					width='48px' height='48px' align='center'/>
+			</mj-column>
+			<mj-column width='20%'>
+				<mj-image src='./images/twitter.png' alt='Twitter'
+					width='48px' height='48px' align='center'/>
+			</mj-column>
+			<mj-column width='85%'>
+				<mj-text>
+					<p>
+						You're receiving this email because you are a subscriber of trustauthx.com<br />
+						If you feel you received it by mistake or wish to unsubscribe,
+						<a href='#' alt='Unsubscribe'>click here</a>
+					</p>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+	</mj-body>
+</mjml>
