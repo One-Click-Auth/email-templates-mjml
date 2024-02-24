@@ -21,7 +21,7 @@
       text-align: left;
       color: white !important;
       }
-	  
+
       .hero-btn{
       float: right;
       position: relative;
@@ -70,11 +70,6 @@
       font-weight: bold;
       margin: 0;
       padding: 0 5px;
-      }
-
-      .right
-      {
-      float: right;
       }
     </mj-style>
   </mj-head>
@@ -140,12 +135,12 @@
       </mj-column>
 
       <mj-column width='40%'>
-        <mj-button width='100%' background-color='black' padding='5px'>
+        <mj-button width='100%' href='#' background-color='black' padding='5px'>
           Join our discord server
         </mj-button>
       </mj-column>
       <mj-column width='40%'>
-        <mj-button width='100%' background-color='black' padding='5px'>
+        <mj-button width='100%' href='#' background-color='black' padding='5px'>
           Follow us on Linkedin
         </mj-button>
       </mj-column>
@@ -295,7 +290,7 @@
         </mj-text>
       </mj-column>
       <mj-column width='50%'>
-        <mj-button width='100%' background-color='black' padding='5px' href='#'>
+        <mj-button width='100%' href='#' background-color='black' padding='5px' href='#'>
           Learn More
         </mj-button>
       </mj-column>
@@ -303,10 +298,10 @@
 
     <mj-section css-class='footer'>
       <mj-column width='20%'>
-        <mj-image src='./images/linkedin.png' alt='Linkedin' width='48px' height='48px' align='center' />
+        <mj-image src='./images/linkedin.png' href='#' alt='Linkedin' width='48px' height='48px' align='center' />
       </mj-column>
       <mj-column width='20%'>
-        <mj-image src='./images/twitter.png' alt='Twitter' width='48px' height='48px' align='center' />
+        <mj-image src='./images/twitter.png' href='#' alt='Twitter' width='48px' height='48px' align='center' />
       </mj-column>
       <mj-column width='85%'>
         <mj-text>
