@@ -9,7 +9,7 @@
 
       .hero
       {
-      background-image: url('./images/header.png');
+      background-image: url('https://openauthx.s3.amazonaws.com/header.png');
       background-size: cover;
       background-repeat: no-repeat;
       }
@@ -80,7 +80,7 @@
         <mj-table>
           <tr>
             <td width='48px'>
-              <image src='./images/logo.png' alt='Trustauthx Logo' width='48px' height='48px' align='left' />
+              <image src='https://openauthx.s3.amazonaws.com/logo.png' alt='Trustauthx Logo' width='48px' height='48px' align='left' />
             </td>
             <td>
               <p>Trustauthx For Startups</p>
@@ -159,7 +159,7 @@
         <mj-table>
           <tr>
             <td width='48px'>
-              <img src='./images/truck.svg' alt='Streamline user authentication' width='48px' height='48px' align='left' />
+              <img src='https://openauthx.s3.amazonaws.com/Truck.png' alt='Streamline user authentication' width='48px' height='48px' align='left' />
             </td>
             <td>
               <h4>Streamline user authentication</h4>
@@ -184,7 +184,7 @@
         <mj-table>
           <tr>
             <td width='48px'>
-              <img src='./images/Megaphone.svg' alt='Reduce development time and costs' width='48px' height='48px' align='left' />
+              <img src='https://openauthx.s3.amazonaws.com/Megaphone.png' alt='Reduce development time and costs' width='48px' height='48px' align='left' />
             </td>
             <td>
               <h4>Reduce development time and costs</h4>
@@ -209,7 +209,7 @@
         <mj-table>
           <tr>
             <td width='48px'>
-              <img src='./images/Phone.svg' alt='Tailored Solutions' width='48px' height='48px' align='left' />
+              <img src='https://openauthx.s3.amazonaws.com/Phone.png' alt='Tailored Solutions' width='48px' height='48px' align='left' />
             </td>
             <td>
               <h4>Tailored Solutions</h4>
@@ -234,7 +234,7 @@
         <mj-table>
           <tr>
             <td width='48px'>
-              <img src='./images/Undo - 2.svg' alt='Scalable Infrastructure' width='48px' height='48px' align='left' />
+              <img src='https://openauthx.s3.amazonaws.com/Undo - 2.png' alt='Scalable Infrastructure' width='48px' height='48px' align='left' />
             </td>
             <td>
               <h4>Scalable Infrastructure</h4>
@@ -259,7 +259,7 @@
         <mj-table>
           <tr>
             <td width='48px'>
-              <img src='./images/Gift.svg' alt='Exclusive Community' width='48px' height='48px' align='left' />
+              <img src='https://openauthx.s3.amazonaws.com/Gift.png' alt='Exclusive Community' width='48px' height='48px' align='left' />
             </td>
             <td>
               <h4>Exclusive Community</h4>
@@ -298,10 +298,10 @@
 
     <mj-section css-class='footer'>
       <mj-column width='20%'>
-        <mj-image src='./images/linkedin.png' href='#' alt='Linkedin' width='48px' height='48px' align='center' />
+        <mj-image src='https://openauthx.s3.amazonaws.com/Linkedin.png' href='#' alt='Linkedin' width='48px' height='48px' align='center' />
       </mj-column>
       <mj-column width='20%'>
-        <mj-image src='./images/twitter.png' href='#' alt='Twitter' width='48px' height='48px' align='center' />
+        <mj-image src='https://openauthx.s3.amazonaws.com/Twitter.png' href='#' alt='Twitter' width='48px' height='48px' align='center' />
       </mj-column>
       <mj-column width='85%'>
         <mj-text>
